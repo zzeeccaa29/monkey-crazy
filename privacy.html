@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Monkey Crazy</title>
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="index.html"><img src="icon.png" alt="Monkey Crazy"></a>
+    <strong>Monkey Crazy</strong>
+    <nav><a href="index.html">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+  </header>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p class="muted">Effective date: October 5, 2026</p>
+
+    <p>Monkey Crazy ("the app") is a desktop application for Windows that runs entirely on the user's own computer. This policy explains what information the app accesses, how it is used, where it is stored and how you can remove it.</p>
+
+    <h2>1. No Monkey Crazy servers</h2>
+    <p>The app has no online service of its own. The developer does not operate servers that receive, store or process your videos, your account information or your usage. Everything the app creates or downloads is kept on your computer, in the app's data folder (<code>%APPDATA%\Monkey Crazy</code>).</p>
+
+    <h2>2. Information stored on your computer</h2>
+    <ul>
+      <li><strong>Your media and edits:</strong> videos you import or download, transcripts, clips, finished videos, templates and settings.</li>
+      <li><strong>Keys and sign-ins:</strong> API keys you enter and the access tokens the platforms give the app when you connect an account. These are <strong>encrypted with Windows data protection</strong> and are only readable by your Windows user account on that computer.</li>
+      <li><strong>Post history and statistics:</strong> the posts you schedule, their links, and the view/like/comment counts the app reads for videos it posted.</li>
+    </ul>
+
+    <h2>3. Google and YouTube</h2>
+    <p>If you choose to connect YouTube, you sign in on Google's own page and grant the app these permissions:</p>
+    <table>
+      <tr><th>Permission</th><th>What the app does with it</th></tr>
+      <tr><td><code>youtube.upload</code></td><td>Uploads the videos you approve (or that your auto-post setting approves) to your channel, with the title, description, tags and schedule you set.</td></tr>
+      <tr><td><code>youtube.readonly</code></td><td>Reads your channel's name and picture to show which channel is connected, and reads public counts (views, likes, comments) of the videos the app uploaded.</td></tr>
+      <tr><td><code>yt-analytics.readonly</code></td><td>Reads watch time, average view percentage, shares and subscribers gained for your channel and the videos the app uploaded, to show them on the app's Analytics page.</td></tr>
+    </table>
+    <p>Separately, if you enter your own YouTube Data API key, the app reads publicly available lists of trending videos and Creative Commons videos.</p>
+    <p>Monkey Crazy's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Information from Google APIs is used only to provide the features above on your computer; it is not sold, not used for advertising, not shared with anyone else, and not read by humans.</p>
+    <p>By connecting YouTube you also agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>; Google's handling of your data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+    <h2>4. TikTok</h2>
+    <p>If you choose to connect TikTok, you sign in on TikTok's own page and grant the app these permissions:</p>
+    <table>
+      <tr><th>Permission</th><th>What the app does with it</th></tr>
+      <tr><td><code>user.info.basic</code></td><td>Shows your display name and picture to confirm which account is connected.</td></tr>
+      <tr><td><code>video.publish</code> / <code>video.upload</code></td><td>Posts the videos you approve to your profile, or sends them to your TikTok drafts (inbox), with the caption and privacy you choose.</td></tr>
+      <tr><td><code>video.list</code> / <code>user.info.stats</code></td><td>Reads view, like, comment and share counts of the videos the app posted, and your follower count, for the Analytics page.</td></tr>
+    </table>
+    <p>TikTok's handling of your data is described in the <a href="https://www.tiktok.com/legal/privacy-policy">TikTok Privacy Policy</a>.</p>
+
+    <h2>5. Other services the app talks to</h2>
+    <ul>
+      <li><strong>Anthropic (Claude), with your own API key:</strong> to suggest titles, descriptions and hashtags, score moments, group trends and write scripts, the app sends text (transcript excerpts, titles, trend headlines) to Anthropic's API. Video and audio files are not sent. See <a href="https://www.anthropic.com/legal/privacy">Anthropic's Privacy Policy</a>.</li>
+      <li><strong>Twitch, with your own app credentials:</strong> reads public lists of top games, live streams and clips.</li>
+      <li><strong>Google Trends:</strong> reads the public daily trending-searches feed.</li>
+      <li><strong>Pexels, with your own API key:</strong> searches and downloads free stock footage for faceless videos.</li>
+      <li><strong>Video sites you link:</strong> downloads the public videos you paste links to, after you confirm you have the right to use them.</li>
+    </ul>
+
+    <h2>6. Keeping and deleting your information</h2>
+    <ul>
+      <li>Disconnect YouTube or TikTok in the app's <strong>Accounts</strong> page: the app revokes its access and deletes the stored tokens.</li>
+      <li>You can also remove access at any time at <a href="https://myaccount.google.com/permissions">Google Account → Third-party access</a> or in TikTok under <strong>Settings and privacy → Security → Manage app permissions</strong>.</li>
+      <li>Delete videos, clips and posts in the app at any time. Uninstalling the app and deleting <code>%APPDATA%\Monkey Crazy</code> removes everything it stored.</li>
+    </ul>
+
+    <h2>7. Children</h2>
+    <p>The app is not intended for children under 13 and does not knowingly process their information.</p>
+
+    <h2>8. Changes</h2>
+    <p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
+
+    <h2>9. Contact</h2>
+    <p>Questions or requests about privacy: <a href="mailto:zeca2003uk@gmail.com">zeca2003uk@gmail.com</a></p>
+  </main>
+  <footer>© 2026 Monkey Crazy · <a href="index.html">Home</a> · <a href="terms.html">Terms of Service</a></footer>
+</body>
+</html>
